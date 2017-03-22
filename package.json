@@ -1,0 +1,42 @@
+{
+  "name": "fs-tabs",
+  "version": "0.0.1",
+  "description": "react版本的overlay",
+  "keywords": [
+    "react-overlay",
+    "overlay"
+  ],
+  "homepage": "https://github.com/dxcweb/fs-tabs",
+  "maitainers": [
+    "605863278@qq.com"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dxcweb/fs-tabs.git"
+  },
+  "licenses": "MIT",
+  "config": {
+    "port": 8200
+  },
+  "scripts": {
+    "build": "rc-tools run build",
+    "start": "rc-tools run server",
+    "pub": "rc-tools run pub",
+    "up": "rc-tools run update-self"
+  },
+  "devDependencies": {
+    "rc-tools": "^5.11.3",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "dependencies": {
+    "fs-flex": "^0.0.3"
+  },
+  "files": [
+    "assets",
+    "examples",
+    "lib",
+    "src"
+  ],
+  "main": "./lib"
+}
